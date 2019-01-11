@@ -1,0 +1,16 @@
+invite code?
+
+Inspect element webpage https://www.hackthebox.eu/invite
+script /js/inviteapi.min.js looks interesting
+go to https://www.hackthebox.eu/js/inviteapi.min.js 
+makeInviteCode looks like an interesting function
+go back to https://www.hackthebox.eu/invite and type makeInviteCode() into console
+success??
+data with an encryption type of ROT13
+decrypt it
+plaintext says: In order to generate the invite code, make a POST request to /api/invite/generate
+open a terminal and make a POST request by typing:
+curl -XPOST https://www.hackthebox.eu/api/invite/generate
+you get another success message
+decrypt it using base64 as it has = at the back
+done!
