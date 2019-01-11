@@ -1,0 +1,13 @@
+*program only runs on 2.7 as it will have syntax error on newer versions
+
+python file with bunch of stuff.
+everything under input can be ignored
+Good Job doesn't mean success
+
+Find chars array. Chars will always be the same as lock_pick is a red herring.
+decrypt chars and you will get a string of random chars
+decrypt the arrays and you wil get a bunch of sentences.
+len of keys array is 10
+the flag is HTB{first 10 letters of the chars string}
+
+fking troll, i know
